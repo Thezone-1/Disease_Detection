@@ -1,4 +1,4 @@
-# Disease Detection React Project
+# Disease Detection Web Application
 
 This is a disease detection web application built using React and Python/ Prolog that allows users to input their symptoms and receive information about potential diseases or health conditions that might match their symptoms. It is designed to give users quick and informative responses to their health concerns.
 
