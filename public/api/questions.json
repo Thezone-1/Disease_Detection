@@ -5,24 +5,9 @@
     "key": "abdominal_pain"
   },
   {
-    "question": "Do you have abnormal menstruation?",
-    "options": ["Yes", "No"],
-    "key": "abnormal_menstruation"
-  },
-  {
     "question": "Do you have acidity?",
     "options": ["Yes", "No"],
     "key": "acidity"
-  },
-  {
-    "question": "Do you have acute liver failure?",
-    "options": ["Yes", "No"],
-    "key": "acute_liver_failure"
-  },
-  {
-    "question": "Do you have altered sensorium?",
-    "options": ["Yes", "No"],
-    "key": "altered_sensorium"
   },
   {
     "question": "Do you have anxiety?",
@@ -35,29 +20,9 @@
     "key": "back_pain"
   },
   {
-    "question": "Do you have belly pain?",
-    "options": ["Yes", "No"],
-    "key": "belly_pain"
-  },
-  {
-    "question": "Do you have blackheads?",
-    "options": ["Yes", "No"],
-    "key": "blackheads"
-  },
-  {
     "question": "Do you have bladder discomfort?",
     "options": ["Yes", "No"],
     "key": "bladder_discomfort"
-  },
-  {
-    "question": "Do you have a blister?",
-    "options": ["Yes", "No"],
-    "key": "blister"
-  },
-  {
-    "question": "Do you have blood in sputum?",
-    "options": ["Yes", "No"],
-    "key": "blood_in_sputum"
   },
   {
     "question": "Do you have a bloody stool?",
@@ -75,19 +40,9 @@
     "key": "breathlessness"
   },
   {
-    "question": "Do you have brittle nails?",
-    "options": ["Yes", "No"],
-    "key": "brittle_nails"
-  },
-  {
     "question": "Do you have bruising?",
     "options": ["Yes", "No"],
     "key": "bruising"
-  },
-  {
-    "question": "Do you have burning micturition?",
-    "options": ["Yes", "No"],
-    "key": "burning_micturition"
   },
   {
     "question": "Do you have chest pain?",
@@ -95,34 +50,14 @@
     "key": "chest_pain"
   },
   {
-    "question": "Do you have chills?",
-    "options": ["Yes", "No"],
-    "key": "chills"
-  },
-  {
     "question": "Do you have cold hands and feet?",
     "options": ["Yes", "No"],
     "key": "cold_hands_and_feets"
   },
   {
-    "question": "Do you have coma?",
-    "options": ["Yes", "No"],
-    "key": "coma"
-  },
-  {
-    "question": "Do you have congestion?",
-    "options": ["Yes", "No"],
-    "key": "congestion"
-  },
-  {
     "question": "Do you have constipation?",
     "options": ["Yes", "No"],
     "key": "constipation"
-  },
-  {
-    "question": "Do you have a continuous feeling of urine?",
-    "options": ["Yes", "No"],
-    "key": "continuous_feel_of_urine"
   },
   {
     "question": "Do you have continuous sneezing?",
@@ -135,21 +70,6 @@
     "key": "cough"
   },
   {
-    "question": "Do you have cramps?",
-    "options": ["Yes", "No"],
-    "key": "cramps"
-  },
-  {
-    "question": "Do you have dark urine?",
-    "options": ["Yes", "No"],
-    "key": "dark_urine"
-  },
-  {
-    "question": "Do you have dehydration?",
-    "options": ["Yes", "No"],
-    "key": "dehydration"
-  },
-  {
     "question": "Do you have depression?",
     "options": ["Yes", "No"],
     "key": "depression"
@@ -160,24 +80,9 @@
     "key": "diarrhea"
   },
   {
-    "question": "Do you have dischromic patches?",
-    "options": ["Yes", "No"],
-    "key": "dischromic_patches"
-  },
-  {
-    "question": "Do you have distention of the abdomen?",
-    "options": ["Yes", "No"],
-    "key": "distention_of_abdomen"
-  },
-  {
     "question": "Do you have dizziness?",
     "options": ["Yes", "No"],
     "key": "dizziness"
-  },
-  {
-    "question": "Do you have drying and tingling lips?",
-    "options": ["Yes", "No"],
-    "key": "drying_and_tingling_lips"
   },
   {
     "question": "Do you have an enlarged thyroid?",
@@ -185,19 +90,9 @@
     "key": "enlarged_thyroid"
   },
   {
-    "question": "Do you have excessive hunger?",
-    "options": ["Yes", "No"],
-    "key": "excessive_hunger"
-  },
-  {
     "question": "Do you have extra-marital contacts?",
     "options": ["Yes", "No"],
     "key": "extra_marital_contacts"
-  },
-  {
-    "question": "Do you have a family history?",
-    "options": ["Yes", "No"],
-    "key": "family_history"
   },
   {
     "question": "Do you have a fast heart rate?",
@@ -210,16 +105,6 @@
     "key": "fatigue"
   },
   {
-    "question": "Do you have fluid overload?",
-    "options": ["Yes", "No"],
-    "key": "fluid_overload"
-  },
-  {
-    "question": "Do you have a foul smell of urine?",
-    "options": ["Yes", "No"],
-    "key": "foul_smell_of_urine"
-  },
-  {
     "question": "Do you have a headache?",
     "options": ["Yes", "No"],
     "key": "headache"
@@ -230,29 +115,9 @@
     "key": "high_fever"
   },
   {
-    "question": "Do you have hip joint pain?",
-    "options": ["Yes", "No"],
-    "key": "hip_joint_pain"
-  },
-  {
     "question": "Do you have a history of alcohol consumption?",
     "options": ["Yes", "No"],
     "key": "history_of_alcohol_consumption"
-  },
-  {
-    "question": "Do you have increased appetite?",
-    "options": ["Yes", "No"],
-    "key": "increased_appetite"
-  },
-  {
-    "question": "Do you have indigestion?",
-    "options": ["Yes", "No"],
-    "key": "indigestion"
-  },
-  {
-    "question": "Do you have inflammatory nails?",
-    "options": ["Yes", "No"],
-    "key": "inflammatory_nails"
   },
   {
     "question": "Do you have internal itching?",
@@ -260,19 +125,9 @@
     "key": "internal_itching"
   },
   {
-    "question": "Do you have irregular sugar level?",
-    "options": ["Yes", "No"],
-    "key": "irregular_sugar_level"
-  },
-  {
     "question": "Do you have irritability?",
     "options": ["Yes", "No"],
     "key": "irritability"
-  },
-  {
-    "question": "Do you have irritation in the anus?",
-    "options": ["Yes", "No"],
-    "key": "irritation_in_anus"
   },
   {
     "question": "Do you have itching?",
@@ -280,29 +135,14 @@
     "key": "itching"
   },
   {
-    "question": "Do you have joint pain?",
-    "options": ["Yes", "No"],
-    "key": "joint_pain"
-  },
-  {
     "question": "Do you have knee pain?",
     "options": ["Yes", "No"],
     "key": "knee_pain"
   },
   {
-    "question": "Do you have a lack of concentration?",
-    "options": ["Yes", "No"],
-    "key": "lack_of_concentration"
-  },
-  {
     "question": "Do you have lethargy?",
     "options": ["Yes", "No"],
     "key": "lethargy"
-  },
-  {
-    "question": "Do you have loss of appetite?",
-    "options": ["Yes", "No"],
-    "key": "loss_of_appetite"
   },
   {
     "question": "Do you have loss of balance?",
@@ -315,39 +155,9 @@
     "key": "loss_of_smell"
   },
   {
-    "question": "Do you have malaise?",
-    "options": ["Yes", "No"],
-    "key": "malaise"
-  },
-  {
-    "question": "Do you have mild fever?",
-    "options": ["Yes", "No"],
-    "key": "mild_fever"
-  },
-  {
-    "question": "Do you have mood swings?",
-    "options": ["Yes", "No"],
-    "key": "mood_swings"
-  },
-  {
     "question": "Do you have movement stiffness?",
     "options": ["Yes", "No"],
     "key": "movement_stiffness"
-  },
-  {
-    "question": "Do you have mucoid sputum?",
-    "options": ["Yes", "No"],
-    "key": "mucoid_sputum"
-  },
-  {
-    "question": "Do you have muscle pain?",
-    "options": ["Yes", "No"],
-    "key": "muscle_pain"
-  },
-  {
-    "question": "Do you have muscle wasting?",
-    "options": ["Yes", "No"],
-    "key": "muscle_wasting"
   },
   {
     "question": "Do you have muscle weakness?",
@@ -355,49 +165,14 @@
     "key": "muscle_weakness"
   },
   {
-    "question": "Do you have nausea?",
-    "options": ["Yes", "No"],
-    "key": "nausea"
-  },
-  {
-    "question": "Do you have neck pain?",
-    "options": ["Yes", "No"],
-    "key": "neck_pain"
-  },
-  {
-    "question": "Do you have nodal skin eruptions?",
-    "options": ["Yes", "No"],
-    "key": "nodal_skin_eruptions"
-  },
-  {
     "question": "Do you have obesity?",
     "options": ["Yes", "No"],
     "key": "obesity"
   },
   {
-    "question": "Do you have pain behind the eyes?",
-    "options": ["Yes", "No"],
-    "key": "pain_behind_the_eyes"
-  },
-  {
-    "question": "Do you have pain during bowel movements?",
-    "options": ["Yes", "No"],
-    "key": "pain_during_bowel_movements"
-  },
-  {
-    "question": "Do you have pain in the anal region?",
-    "options": ["Yes", "No"],
-    "key": "pain_in_anal_region"
-  },
-  {
     "question": "Do you have painful walking?",
     "options": ["Yes", "No"],
     "key": "painful_walking"
-  },
-  {
-    "question": "Do you have palpitations?",
-    "options": ["Yes", "No"],
-    "key": "palpitations"
   },
   {
     "question": "Do you have passage of gases?",
@@ -410,29 +185,9 @@
     "key": "patches_in_throat"
   },
   {
-    "question": "Do you have phlegm?",
-    "options": ["Yes", "No"],
-    "key": "phlegm"
-  },
-  {
-    "question": "Do you have polyuria?",
-    "options": ["Yes", "No"],
-    "key": "polyuria"
-  },
-  {
-    "question": "Do you have prominent veins on calf?",
-    "options": ["Yes", "No"],
-    "key": "prominent_veins_on_calf"
-  },
-  {
     "question": "Do you have a puffy face and eyes?",
     "options": ["Yes", "No"],
     "key": "puffy_face_and_eyes"
-},
-{
-    "question": "Do you have pus-filled pimples?",
-    "options": ["Yes", "No"],
-    "key": "pus_filled_pimples"
 },
 {
     "question": "Do you have a history of receiving blood transfusion?",
@@ -440,34 +195,9 @@
     "key": "receiving_blood_transfusion"
 },
 {
-    "question": "Do you have a history of receiving unsterile injections?",
-    "options": ["Yes", "No"],
-    "key": "receiving_unsterile_injections"
-},
-{
-    "question": "Do you have red sores around the nose?",
-    "options": ["Yes", "No"],
-    "key": "red_sore_around_nose"
-},
-{
     "question": "Do you have red spots over your body?",
     "options": ["Yes", "No"],
     "key": "red_spots_over_body"
-},
-{
-    "question": "Do you have redness of the eyes?",
-    "options": ["Yes", "No"],
-    "key": "redness_of_eyes"
-},
-{
-    "question": "Do you experience restlessness?",
-    "options": ["Yes", "No"],
-    "key": "restlessness"
-},
-{
-    "question": "Do you have a runny nose?",
-    "options": ["Yes", "No"],
-    "key": "runny_nose"
 },
 {
     "question": "Do you have rusty sputum?",
@@ -480,11 +210,6 @@
     "key": "scurring"
 },
 {
-    "question": "Do you experience shivering?",
-    "options": ["Yes", "No"],
-    "key": "shivering"
-},
-{
     "question": "Do you have silver-like dusting on your skin?",
     "options": ["Yes", "No"],
     "key": "silver_like_dusting"
@@ -495,11 +220,6 @@
     "key": "sinus_pressure"
 },
 {
-    "question": "Do you have skin peeling?",
-    "options": ["Yes", "No"],
-    "key": "skin_peeling"
-},
-{
     "question": "Do you have a skin rash?",
     "options": ["Yes", "No"],
     "key": "skin_rash"
@@ -508,31 +228,6 @@
     "question": "Do you experience slurred speech?",
     "options": ["Yes", "No"],
     "key": "slurred_speech"
-},
-{
-    "question": "Do you have small dents in your nails?",
-    "options": ["Yes", "No"],
-    "key": "small_dents_in_nails"
-},
-{
-    "question": "Do you experience spinning movements?",
-    "options": ["Yes", "No"],
-    "key": "spinning_movements"
-},
-{
-    "question": "Do you have spotting during urination?",
-    "options": ["Yes", "No"],
-    "key": "spotting_urination"
-},
-{
-    "question": "Do you have a stiff neck?",
-    "options": ["Yes", "No"],
-    "key": "stiff_neck"
-},
-{
-    "question": "Do you experience stomach bleeding?",
-    "options": ["Yes", "No"],
-    "key": "stomach_bleeding"
 },
 {
     "question": "Do you have stomach pain?",
@@ -550,34 +245,9 @@
     "key": "sweating"
 },
 {
-    "question": "Do you have swollen lymph nodes?",
-    "options": ["Yes", "No"],
-    "key": "swelled_lymph_nodes"
-},
-{
-    "question": "Do you have swelling in your joints?",
-    "options": ["Yes", "No"],
-    "key": "swelling_joints"
-},
-{
     "question": "Do you have swelling of the stomach?",
     "options": ["Yes", "No"],
     "key": "swelling_of_stomach"
-},
-{
-    "question": "Do you have swollen blood vessels?",
-    "options": ["Yes", "No"],
-    "key": "swollen_blood_vessels"
-},
-{
-    "question": "Do you have swollen extremities?",
-    "options": ["Yes", "No"],
-    "key": "swollen_extremeties"
-},
-{
-    "question": "Do you have swollen legs?",
-    "options": ["Yes", "No"],
-    "key": "swollen_legs"
 },
 {
     "question": "Do you have throat irritation?",
@@ -600,11 +270,6 @@
     "key": "unsteadiness"
 },
 {
-    "question": "Do you have visual disturbances?",
-    "options": ["Yes", "No"],
-    "key": "visual_disturbances"
-},
-{
     "question": "Do you experience vomiting?",
     "options": ["Yes", "No"],
     "key": "vomiting"
@@ -613,31 +278,6 @@
     "question": "Do you have watery eyes?",
     "options": ["Yes", "No"],
     "key": "watering_from_eyes"
-},
-{
-    "question": "Do you experience weakness in your limbs?",
-    "options": ["Yes", "No"],
-    "key": "weakness_in_limbs"
-},
-{
-    "question": "Do you have weakness on one side of your body?",
-    "options": ["Yes", "No"],
-    "key": "weakness_of_one_body_side"
-},
-{
-    "question": "Have you experienced weight gain?",
-    "options": ["Yes", "No"],
-    "key": "weight_gain"
-},
-{
-    "question": "Have you experienced weight loss?",
-    "options": ["Yes", "No"],
-    "key": "weight_loss"
-},
-{
-    "question": "Do you have yellow crust oozing from your skin?",
-    "options": ["Yes", "No"],
-    "key": "yellow_crust_ooze"
 }
 
 ]

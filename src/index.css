@@ -1,17 +1,37 @@
 body {
+  background-image: url('Artboard\ 1.png');
   background-color: #222;
+  background-image: 'src\Artboard1.jpg';
   color: #fff;
-  font-family: Arial, sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  /* Vertically center the container */
+  justify-content: center;
+  /* Horizontally center the container */
+  height: 100vh;
+  /* Set the container height to the viewport height */
+  margin: 0;
+  background-size: cover;
+  /* Scale the background image to cover the entire body */
+  background-position: center;
+  /* Center the background image */
+  background-repeat: no-repeat;
 }
 
 .container {
-  max-width: 600px;
-  margin: 0 auto;
+  min-width: 300px;
+  min-height: 200px;
   padding: 20px;
-  background-color: #333;
-  border: 1px solid #444;
+  background-image: 'Artboard\2.png';
+  background-color: rgb(20, 19, 19);
+  border: 1px solid rgb(1, 47, 1);
   border-radius: 5px;
+  text-align: center;
+  container: center;
+  /* Center the text within the container */
 }
+
 
 h1 {
   text-align: center;

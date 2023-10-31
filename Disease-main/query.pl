@@ -1,2 +1,2 @@
-?- findall(X, (blister(X)), Diseases), print(Diseases), nl.
+?- findall(X, (history_of_alcohol_consumption(X)), Diseases), print(Diseases), nl.
 ?- halt.

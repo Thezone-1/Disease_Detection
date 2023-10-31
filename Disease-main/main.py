@@ -1,11 +1,19 @@
 import subprocess
 from subprocess import CalledProcessError
+from fastapi.middleware.cors import CORSMiddleware
 from typing import List
 from fastapi import FastAPI
 from pydantic import BaseModel
 
 app = FastAPI()
 
+app.add_middleware(
+    middleware_class=CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 class Request(BaseModel):
     symptoms: List[str]
@@ -43,7 +51,9 @@ def find_diseases(symptoms: List[str]) -> List[str]:
     return matching_diseases
 
 
+
 @app.post("/find-diseases")
 def get_diseases(req: Request):
     diseases = find_diseases(req.symptoms)
     return {"diseases": diseases}
+

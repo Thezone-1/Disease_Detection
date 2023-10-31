@@ -15,13 +15,25 @@ function QuizApp() {
     fetch('/api/questions.json') // Replace with the actual URL
       .then((response) => response.json())
       .then((data) => {
-        setQuestions(data);
-        setUserAnswers(new Array(data.length).fill([]));
+        // Shuffle the questions array
+        const shuffledQuestions = shuffleArray(data);
+        setQuestions(shuffledQuestions);
+        setUserAnswers(new Array(shuffledQuestions.length).fill([]));
       })
       .catch((error) => {
         console.error('Error fetching questions:', error);
       });
   }, []);
+
+  // Fisher-Yates (Knuth) Shuffle Algorithm
+  function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+  }
+
 
   const handleOptionSelect = (selectedOption) => {
     const newAnswers = [...userAnswers];
@@ -71,7 +83,6 @@ function QuizApp() {
     const dataToSend = { symptoms: symptomsList };
 
     fetch('http://localhost:8000/find-diseases', {
-      mode: 'no-cors',
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -146,14 +157,14 @@ function QuizApp() {
         )
       ) : (
         <button onClick={handleStartQuiz} className="start-button">
-          Start Quiz
+          Start Questions
         </button>
       )}
 
       {showResult && (
         <div className="result-window">
           <h2>Result</h2>
-          <p>Disease Detected: {resultDisease}</p>
+          <p>Probable Diseases: {resultDisease}</p>
         </div>
       )}
     </div>
