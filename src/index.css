@@ -1,0 +1,100 @@
+body {
+  background-color: #222;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #333;
+  border: 1px solid #444;
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+}
+
+button {
+  background-color: #0f0;
+  color: #000;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin: 10px 0;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+button:hover {
+  background-color: #000;
+  color: #0f0;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.question {
+  margin-bottom: 20px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+}
+
+.option {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+/* Custom radio button appearance */
+input[type="radio"]+label::before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+  border: 2px solid #0f0;
+  /* Green border */
+  border-radius: 50%;
+  background-color: #000;
+  /* Dark background for unselected option */
+}
+
+input[type="radio"]:checked+label::before {
+  background-color: #0f0;
+  /* Green background for selected option */
+}
+
+.submit-button {
+  background-color: #0f0;
+  border: none;
+  color: #000;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+.submit-button:hover {
+  background-color: #000;
+  color: #0f0;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.score {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+}
